@@ -48,6 +48,7 @@ img {
     object-fit: cover;
 
     border-radius: 5px;
+    border: #000 solid 1px;
 }
 
 .news {
@@ -137,6 +138,10 @@ img {
 
 .news__image--double {
     grid-template-columns: auto auto;
+}
+
+.news__image--triple {
+    grid-template-columns: auto auto auto;
 }
 
 .news__image--side {
