@@ -26,21 +26,30 @@
         <main class="news">
             <header class="news__head">
                 <div class="news__header">
-                    <a href="/index.html" class="news__return">⭠ Voltar</a>
-                    <h1>São Paulo</h1>
-                    <h2>
-                        A maior metrópole do Brasil, centro econômico e cultural
-                    </h2>
+                    <div class="news__title">
+                        <a href="/index.html" class="news__return">⭠ Voltar</a>
+                        <h1>São Paulo</h1>
+                        <h2>
+                            A maior metrópole do Brasil, centro econômico e
+                            cultural
+                        </h2>
+                    </div>
+                    <img
+                        src="/img/sao_paulo/vista_aerea.avif"
+                        title="Vista aérea de São Paulo"
+                        alt="Vista aérea da cidade de São Paulo, com avenidas movimentadas, edifícios altos e áreas verdes visíveis."
+                        class="news__background"
+                    />
                 </div>
-
-                <img
-                    src="/img/sao_paulo/vista_aerea.avif"
-                    title="Vista aérea de São Paulo"
-                    alt="Vista aérea da cidade de São Paulo, com avenidas movimentadas, edifícios altos e áreas verdes visíveis."
-                    class="news__background"
-                />
+                <hr />
+                <nav class="news__nav">
+                    <a href="#">Início</a>
+                    <a href="#">Esporte</a>
+                    <a href="#">Política</a>
+                    <a href="#">Culinária</a>
+                    <a href="#">Cultura</a>
+                </nav>
             </header>
-            <hr />
             <article class="news__body">
                 <section class="news__section">
                     <h3>Introdução e Cultura</h3>
@@ -58,7 +67,7 @@
                         um ambiente propício tanto para negócios quanto para
                         turismo e qualidade de vida.
                     </p>
-                    <div class="news__image--side">
+                    <div class="news__portrait--side">
                         <p>
                             A cidade oferece um vasto panorama cultural,
                             incluindo museus renomados como o
@@ -79,7 +88,7 @@
                             alt="Fachada do Museu de Arte de São Paulo (MASP), com estrutura suspensa por quatro pilares vermelhos e vidro transparente, localizada na Avenida Paulista."
                         />
                     </div>
-                    <div class="news__image--side">
+                    <div class="news__portrait--side">
                         <img
                             src="/img/sao_paulo/parque_ibirapuera.jpg"
                             title="Parque do Ibirapuera"
@@ -129,26 +138,28 @@
                         verdadeiro destino para amantes da culinária e da
                         cultura urbana.
                     </p>
-                    <img
-                        src="/img/sao_paulo/avenida_paulista.jpg"
-                        title="Avenida Paulista"
-                        alt="Vista da Avenida Paulista em São Paulo, destacando a via central com ciclovia vermelha, ladeada por edifícios modernos e árvores, representando a arquitetura urbana e a mobilidade sustentável da cidade."
-                    />
-                    <img
-                        src="/img/sao_paulo/praca_da_liberdade.jpg"
-                        title="Bairro da Liberdade"
-                        alt="Vista da Praça da Liberdade em São Paulo, destacando a iluminação pública com estilo oriental, árvores ao redor e o ambiente urbano característico do bairro da Liberdade."
-                    />
-                    <img
-                        src="/img/sao_paulo/mercadao.jpg"
-                        title="Mercadão"
-                        alt="Vista interna do Mercado Municipal de São Paulo, mostrando bancas coloridas com uma variedade de frutas, legumes e temperos. O ambiente é movimentado, com compradores e vendedores interagindo entre as barracas. Ao fundo, destaca-se o teto de vidro com vitrais coloridos, proporcionando uma iluminação natural ao local."
-                    />
+                    <div class="news__portrait news__portrait--triple">
+                        <img
+                            src="/img/sao_paulo/avenida_paulista.jpg"
+                            title="Avenida Paulista"
+                            alt="Vista da Avenida Paulista em São Paulo, destacando a via central com ciclovia vermelha, ladeada por edifícios modernos e árvores, representando a arquitetura urbana e a mobilidade sustentável da cidade."
+                        />
+                        <img
+                            src="/img/sao_paulo/praca_da_liberdade.jpg"
+                            title="Bairro da Liberdade"
+                            alt="Vista da Praça da Liberdade em São Paulo, destacando a iluminação pública com estilo oriental, árvores ao redor e o ambiente urbano característico do bairro da Liberdade."
+                        />
+                        <img
+                            src="/img/sao_paulo/mercadao.jpg"
+                            title="Mercadão"
+                            alt="Vista interna do Mercado Municipal de São Paulo, mostrando bancas coloridas com uma variedade de frutas, legumes e temperos. O ambiente é movimentado, com compradores e vendedores interagindo entre as barracas. Ao fundo, destaca-se o teto de vidro com vitrais coloridos, proporcionando uma iluminação natural ao local."
+                        />
+                    </div>
                 </section>
 
                 <section class="news__section">
                     <h3>Economia, Inovação e Curiosidades</h3>
-                    <div class="news__image--side">
+                    <div class="news__portrait--side">
                         <p>
                             A economia de <b>São Paulo</b> é a maior do Brasil e
                             uma das mais importantes da América Latina. O setor
@@ -167,7 +178,7 @@
                             alt="Imagem mostrando uma paisagem urbana com prédios altos ao fundo e uma rua movimentada à frente. O céu está parcialmente nublado, e há árvores e vegetação próximas às calçadas, equilibrando elementos naturais e urbanos."
                         />
                     </div>
-                    <div class="news__image--side">
+                    <div class="news__portrait--side">
                         <img
                             src="/img/sao_paulo/centro_financeiro.jpg"
                             title="Centro financeiro"
@@ -183,7 +194,7 @@
                             promove inclusão social e cultura.
                         </p>
                     </div>
-                    <div class="news__image--side">
+                    <div class="news__portrait--side">
                         <p>
                             Entre as curiosidades, São Paulo é conhecida por sua
                             diversidade cultural, eventos internacionais como a
@@ -198,10 +209,31 @@
                             src="/img/sao_paulo/cultura_urbana.webp"
                             title="Cultura urbana"
                             alt="Uma pintura de mural detalhada de uma ave exótica, com penas vibrantes em tons de rosa, azul e preto, ao lado de um prédio residencial com várias janelas acesas, em um ambiente urbano noturno."
+                            class="img__origin--right"
                         />
                     </div>
                 </section>
             </article>
+            <footer>
+                <div
+                    class="flex__container--column flex__justify--space-between"
+                >
+                    <div>
+                        <h3>Contato</h3>
+                        <p>Telefone: (11) 0000-0000</p>
+                        <p>Email: site@email.com</p>
+                    </div>
+                    <p>©2025 Folha Repórter. All rights reserved.</p>
+                </div>
+                <div>
+                    <h3>Mapa do Site</h3>
+                    <a href="#">Início<br /></a>
+                    <a href="#">Seção de Esportes<br /></a>
+                    <a href="#">Seção de Política<br /></a>
+                    <a href="#">Seção de Culinária<br /></a>
+                    <a href="#">Seção de Cultura</a>
+                </div>
+            </footer>
         </main>
     </body>
 </html>

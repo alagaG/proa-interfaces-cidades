@@ -1,2 +1,23 @@
 @media (min-width: 48em) {
+    :root {
+        --font-size-xl: 100px;
+        --font-size-lg: 40px;
+        --font-size-md: 18px;
+        --font-size-sm: 12px;
+
+        --border-radius: 10px;
+    }
+
+    nav {
+        justify-content: start;
+        gap: 20px;
+
+        & a {
+            width: 6%;
+        }
+    }
+
+    .news__body {
+        padding: 10px 50px;
+    }
 }
