@@ -61,6 +61,7 @@ p {
     font-size: var(--font-size-md);
     font-family: var(--font-family-secondary);
     text-align: justify;
+    margin-top: 10px;
 }
 
 strong {
@@ -288,7 +289,7 @@ footer {
         column-gap: 8px;
         grid-template-columns: auto;
 
-        margin: 0;
+        margin: 10px 0 0 0;
 
         & img {
             width: 100%;
